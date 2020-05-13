@@ -1,0 +1,62 @@
+.delivery {
+    height: 370px;
+    width: 1921px;
+    background: url(../img/bg_delivery_cat1.jpg) center (center/cover) no-repeat;
+
+    &__wrapper {
+        display: flex;
+    }   
+    &__text {
+         margin-top: 105px;
+        margin-left: 416px;
+    }
+    &__title {
+        color: #232323;
+        font-size: 26px;
+         text-align: right;
+
+        &__small {
+            color: #393939;
+            font-size: 16px;
+            font-weight: 400;
+            text-align: right;
+            margin-top: 21px;
+            }
+        &__form {
+
+            color: #242424;
+            font-size: 14px;
+            font-weight: 700;
+            text-align: center;
+            margin-top: 19px;
+        }
+        &__form2 {
+            font-size: 12px;
+            font-weight: 700;
+            text-align: center;
+            color: #242424;
+            margin-top: 12px;
+            margin-bottom: 0;
+        }
+        &__form3 {
+
+            font-size: 12px;
+            text-align: center;
+            color: #242424;
+            margin-top: 10px;
+            margin-bottom: 0;
+            font-weight: 400;
+        }  
+}   
+}
+
+.contact-form {
+
+    height: 320px;
+    width: 240px;
+    border: 3px solid #f9ddb0;
+    background-color: #ffffff;
+    margin-top: 25px;
+    margin-left: 40px;
+    
+    }

@@ -1,0 +1,30 @@
+.contacts {
+
+    width: 1921px;
+    padding-bottom: 49px;
+
+    
+&__descr {
+    display: flex;
+    // justify-content: space-evenly;
+}
+    
+&__icon {
+    width: 30px;
+    height: 40px;
+    padding-right: 10px;
+    }
+
+&__adress {
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    font-weight: 400; 
+}
+
+&__item {
+
+    display: flex;
+    margin-right: 110px;
+  
+    }
+}

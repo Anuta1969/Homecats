@@ -1,0 +1,64 @@
+.button {
+    width: 160px;
+    height: 45px;
+    border-radius: 23px;
+    background-color: $main-color;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    box-shadow: 0 2px 6px rgba(1, 1, 1, 0.15);
+    background-image: linear-gradient(to top, #e8840f 0%, #f8b513 100%);
+
+    &__delivery {
+        width: 180px;
+        height: 45px;
+        margin: 5px auto 5px;
+        background-color: #f09c11
+    }
+
+    &__slider {
+        width: 150px;
+        height: 40px;
+        margin-top: 20px;
+
+    }
+    &__order_models {
+
+    width: 220px;
+    height: 45px;
+    margin: 15px auto;
+    }
+    &__order {
+        width: 220px;
+        height: 45px;
+        margin: 15px auto;
+
+    }
+   
+  
+    &__design {
+        width: 240px;
+        margin-top: 35px;
+    }
+    &__feed {
+        width: 220px;
+        margin: 0 auto;
+        margin: 50px 400px 0px;
+    }
+  
+
+    &__slider2 {
+        
+        width: 190px;
+        height: 45px;
+    }
+
+    &__questions {
+
+        width: 220px;
+        height: 45px;
+        margin: 70px auto;
+    }
+
+}

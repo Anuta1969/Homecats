@@ -1,0 +1,39 @@
+// 
+.title {
+    color: #232323;
+    font-size: 30px;
+    text-align: center;
+    &__whites {
+    color: #ffffff;
+    margin-top: 22px;
+    text-align: center;
+    } 
+}
+.main {
+    width: 148px;
+    height: 1px;
+    background-color: $main-color;
+    border: none;
+    }
+.whiteb {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    }
+.order__title_models {
+
+    color: #232323;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 52px auto 0;
+}
+.order__subtitle_models {
+
+    color: #232323;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px auto;
+
+}

@@ -1,0 +1,27 @@
+.feed {
+    height: 750px;
+    &__item {
+       display: flex;
+
+    }
+
+    &__name {
+        color: #291402;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__city {
+
+        color: #9b7a5e;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 15px;
+    }
+    &__icon {
+        width: 190px;
+        height: 190px;
+    }
+    &__descr {
+        max-width: 590;
+    }
+}

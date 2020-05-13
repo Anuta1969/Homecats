@@ -1,0 +1,86 @@
+.slider, .slider2 {
+    width: 260px;
+    height: 210px;
+    // position: relative;
+background-color: #fff;
+}
+
+.wrap {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+
+.wrap_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+
+
+}
+
+.slider-item {
+    width: 260px;
+    img {
+    display: block;
+    margin: 0 auto;
+    }
+}
+
+
+
+.left-arrow {
+
+    width: 35px;
+    height: 35px;
+    background: url(/icons/left_grey.svg) no-repeat;    
+    position: absolute;
+    cursor: pointer;
+    z-index: 4;
+    left: 10px;
+    top: 250px;
+    display: block;
+  
+    }
+
+    .right-arrow {
+        width: 35px;
+        height: 35px;
+        background: url(/icons/right_grey.svg) no-repeat;
+        position: absolute;
+        cursor: pointer;
+        z-index: 4;
+        left: 1100px;
+        top: 250px;
+        display: block;
+    }
+
+    .left-arrow2 {
+        width: 35px;
+        height: 35px;
+        background: url(/icons/left_light.png)no-repeat;    
+        position: absolute;
+        cursor: pointer;
+        z-index: 4;
+        left: 10px;
+        top: 250px;
+        display: block; 
+       
+    }
+
+    .right-arrow2 {
+        width: 35px;
+        height: 35px;
+        background: url(/icons/right_light.png)no-repeat;    
+        position: absolute;
+        cursor: pointer;
+        z-index: 4;
+        left: 1110px;
+        top: 250px;
+        display: block; 
+      
+    }

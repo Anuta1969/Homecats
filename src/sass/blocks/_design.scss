@@ -1,0 +1,36 @@
+.design {
+    height: 670px;
+    width: 1921px;
+    background: url(../img/bg_design.jpg) center (center/cover) no-repeat;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 90px;
+    }
+
+    &__item {
+        text-align: center;
+        margin-top: 15px;
+        width: 249px;
+    }
+    &__icon {
+       
+        width: 200px;
+        height: 200px;
+        text-align: center;
+    }
+    &__subtitle {
+        color: #ec644b;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 7px;
+    }
+    &__descr {
+        color: #ffffff;
+        font-size: 18px;
+        font-style: italic;
+        margin-top: 30px;
+     
+    }
+}
