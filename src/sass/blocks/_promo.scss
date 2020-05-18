@@ -1,35 +1,44 @@
 .promo {
-    width: 1921px;
+    // width: 1921px; ширину не нужно указывать
     height: 150px;
-    padding: 25px 489px;
-
     &__wrapper {
     display: flex;
-    justify-content: space-evenly;
+    width: 950px;
+    margin: 0 auto;
+  
     }   
-
     &__logo {
         width: 175px;
         height: 90px;
+        margin-top: 25px;
+        margin-right: 25px;
     }   
     &__text {
-
-        height: 39px;
+        width: 213px;
         color: #000000;
+        font-family: Roboto;
         font-size: 18px;
-        font-style: italic;
+        margin-top: 50px;
+        margin-right: 137px;
     }
-
-    &__subheader1 {
+    &__subheader {
+        width: 138px;
         color: #000000;
+        font-family: Roboto;
         font-size: 12px;
         font-weight: 400;
+        margin-top: 0;
     }
-    &__social__icons {
+    &__social {
+         margin-top: 25px;
+         margin-right: 105px;
+    }
 
+    &__social__icons {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            width: 140px;
         }
     &__social-block {
             img {
@@ -41,32 +50,38 @@
             }
     }
    &__question {
-   
-    height: 12px;
     color: #242424;
+    font-family: Roboto;
     font-size: 12px;
+    font-weight: 400;
     margin-bottom: 8px;
+    margin-top: 25px;
    }
   
    &__shedule {
-    height: 12px;
+   
     color: #242424;
     font-family: Roboto;
     font-size: 12px;
     font-weight: 400;
     margin-top: 10px;
+    margin-bottom: 15px;
    }
    &__phone {
-    height: 37px;
     color: #242424;
     font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
     }
     &__call {
         color: $main-color;
         font-family: Roboto;
         font-size: 13px;
         font-weight: 400;
-
+        text-align: right;
+        display: block;
+        margin-top: 8px;
+        
     }
 }
 

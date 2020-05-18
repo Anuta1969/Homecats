@@ -1,14 +1,16 @@
 .order {
 height: 870px;
-width: 1921px;
-background: url(../img/bg_order.jpg) center (center/cover) no-repeat;
-z-index: 5;
+background: url("../img/bg_cats_decor.jpg") center (center/cover) no-repeat;
+
 
     &__block {
     
         display: flex;
-        justify-content: space-evenly;
-        background-color: $backlight-color;
+        justify-content: center;
+        margin-top: 280px;
+       
+      
+       
     }
 
     &__icon {
@@ -42,8 +44,13 @@ z-index: 5;
         color: #2e2e2e;
         font-size: 14px;
         font-weight: 300;
-        margin-top: 19px;
+        margin-top: 10px;
         text-align: center;
+        width: 250px;
+        
+     
+       
+        
       
     }
     &__input {

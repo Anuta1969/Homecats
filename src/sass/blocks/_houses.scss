@@ -1,7 +1,7 @@
 .houses {
 
    
-    width: 1921px;
+  
     padding-bottom: 49px;
 
     &__block {
@@ -13,13 +13,14 @@
     }
     &__item {
         text-align: center;
+      
        
     }
 	&__icon {
         display: block;
         width: 140px;
         height: 150px;
-        text-align: center;
+        margin: 0 auto;
     }
   
     &__descr {
@@ -27,6 +28,7 @@
         font-size: 18px;
         font-weight: 400;
         text-align: center;
+        margin-top: 29px;
    
     }
 }

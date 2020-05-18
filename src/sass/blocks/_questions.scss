@@ -1,16 +1,19 @@
 .questions {
     height: 180px;
-    width: 1921px;
-    background: url(/img/bg_quetions.jpg) center (center/cover) no-repeat;
-&__wrapper {
-    display: flex;
-    justify-content: space-between;
-}
-&__text {
-    color: #000000;
-    font-family: "Roboto Slab";
-    font-size: 24px;
-    font-weight: 400;
-    margin-top: 70px;
-}
+   
+    background: url("../img/bg_quetions.jpg") center (center/cover) no-repeat;
+    &__wrapper {
+        display: flex;
+        width: 620px;
+        margin: 0 auto;
+    }
+    &__text {
+        width: 237px;
+        height: 51px;
+        margin-top: 70px;
+        color: #000000;
+        font-size: 20px;
+        font-weight: 400;
+      
+    }
 }
