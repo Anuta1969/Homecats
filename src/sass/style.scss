@@ -23,7 +23,7 @@ box-sizing: border-box;
 }
 
 
-@import 'base/media';
+
 @import 'base/variables';
 @import 'blocks/promo';
 @import 'blocks/buttons';
@@ -39,4 +39,4 @@ box-sizing: border-box;
 @import 'blocks/slider';
 @import 'blocks/questions';
 @import 'blocks/contacts';
-
+@import 'base/media';

@@ -1,39 +1,298 @@
 
-
-
     @media (max-width: 1200px) {
-
+        .promo {
+            &__text {
+                font-size: 18px;
+                margin-right: 20px;
+            }
+            &__shedule {
+                font-size: 17px;
+                margin-top: 0;
+            }
+            &__phone {
+                font-size: 20px;
+            }
+            &__social {
+                margin-top: 10px;
+                margin-right: 50px;
+            }
+            &__subheader {
+                font-size: 17px;
+            }
+            &__question {
+                font-size: 17px;
+                margin-top: 10px;
+            }
+            &__contacts {
+                margin-top: 0px;
+            }
+            &__call {
+                font-size: 20px;
+                text-align: left;
+            }
+        }
         .delivery {
-
-            width: 90%;
-            background-size: cover;
-
-           &__title {
-
-            font-size: 20px;
-            background-color: red;
+        
+            &__title__form2 {
+                display: none;
+                }
+            &__title__form3 {
+                display: none;
+            }
+            &__title {
+            font-size: 18px;
            }
+        }
+        .paw_first {
+            position: absolute;
+            top: 56px;
+            right: 530px;
+        }
+        .houses {
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+        .feed-form, .feed-form__order {
+            input {
+                font-size: 15px;
+            } 
+        }
+        .feed-form__order {
+            width: 550px;
+        }
+        .order {
+            &__block {
+           justify-content: space-evenly;
+            }
+            &__subtitle_models {
 
-           
+                font-size: 20px;
+            }
+            &__descr {
+                font-size: 16px;
+                width: 150px;
+            }
+            &__subtitle {
+                font-size: 18px;
+            }
+        }
+        .slider, .slider2 {
+            border: 5px solid #f9ddb0;
+            img {
+                width: 90%;
+                padding-top: 10px;
+            } 
+        }
+        .models__wrap, .more__wrap  {
+            justify-content: center;
+        }
+        .button__item {
+         width: 260px;
+        }
+        .right-arrow {
+            top: 25%;
+            right: 10%;
+        }
+        .left-arrow {
+            top: 25%;
+            left: 10%;
+        }
+        .left-arrow2 {
+            top: 55%;
+            left: 10%;
+        }
+        .right-arrow2 {
+            top: 55%;
+            right: 10%;
+        }
+        .design {
+            &__wrapper {
+                justify-content: center;
+            }
+            &__descr {
+                font-size: 20px;
+            }
+        }
+        .button {
+                font-size: 17px;
+                width: auto;
+            }
+        .button__slider2 {
+             width: 190px;
+        }
+        .wrap_button {
+            justify-content: center;
         }
     }
-         
-    //     .consultation {
-    //         margin:  0 auto;
-    //         &__descr {
-    //             text-align: center;			
-    //         }
-    //     .feed-form {
-    //         margin: 50px auto;
-    //         }
-    //     }
-    //     .title {
-    //         &_left {
-            
-    //             color:orange;
-    //             font-size: 22px;
-    //             text-align-last: center;
-        
-    //         }
-    // }
-    //     }
+    @media (max-width: 992px){
+        .feed {
+            &__item {
+                margin: 0 150px;
+            }
+        }
+        .feed-form__order {
+           
+            margin-bottom: 50px;
+            margin-top: 5px;
+        }
+        .button__delivery {
+            margin-top: 30px;
+        }
+    }
+    @media (max-width: 767px){
+        .promo {
+             height: auto;
+            &__logo {
+               zoom: 0.7;
+            }
+            &__text {
+                font-size: 22px;
+                margin-right: 10px;
+                margin-top: 15px;
+            }
+            &__shedule {
+                font-size: 28px;
+            }
+            &__phone {
+                font-size: 28px;
+            }
+            &__social {
+                margin-top: 15px;
+                margin-right: 15px;
+            }
+            &__subheader {
+                display: none;
+            }
+            &__question {
+               display: none;
+            }
+            &__contacts {
+                margin-top: 0px;
+            }
+            &__call {
+                font-size: 26px;
+                text-align: left;
+            }
+        }
+        .delivery {
+            &__title {
+                font-size: 28px;;
+            }
+            &__title__small {
+                font-size: 22px;
+            }
+            &__title__form {
+                font-size: 22px;
+            }
+            &__title__form2 {
+            display: none;
+            }
+            &__title__form3 {
+                display: none;
+            }
+            &__text {
+                margin-left: 180px;
+            }
+        }
+        .contact-form {
+            width: 400px; 
+            text-align: center;
+        }
+        .feed-form {
+            width: 400px;
+        }
+        .feed-form, .feed-form__order {
+            input {
+                width: 300px;
+                font-size: 24px;
+                margin: 5px auto 0;
+                } 
+        }
+        .feed-form__order {
+            width: 600px;
+            margin-bottom: 40px;
+        }
+
+        .order__title {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .houses {
+            &__descr {
+                width: 120px;
+                font-size: 26px;
+            }
+        }
+        .design {
+            &__descr {
+                  display: none;
+            }
+        }
+        .feed {
+            &__name  {
+                font-size: 22px;
+            }
+            &__city {
+                font-size: 22px;
+                margin-top: 5px;
+            }
+            &__item {
+                margin: 0 100px;
+            }
+            &__descr {
+                font-size: 20px;
+            }
+        }
+        .contacts {
+            &__address {
+            font-size: 26px;
+            }
+            &__phone {
+                font-size: 28px;
+            }
+        }
+        .button {
+            font-size: 22px;
+        }
+        .button__slider {
+        margin: 20px auto 0;
+        }
+        .questions {
+            &__text {
+                font-size: 24px;;
+            }
+        }
+        .price_text {
+            font-size: 22px;
+            margin-top: 5px;
+        }
+        .paw_first {
+        top: 56px;
+        right: 650px;
+         }
+        .order {
+            &__subtitle {
+            font-size: 24px;;
+            }
+            &__subtitle_models {
+                font-size: 24px;
+            }
+        }
+    }
+    @media (max-width: 575px){
+        .delivery {
+            &__title {
+                font-size: 26px;
+            }
+            &__title__small {
+                font-size: 24px;
+            }
+        }
+        .button {
+            font-size: 22px;
+            height: 45px;
+        }
+        }
+    

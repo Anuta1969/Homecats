@@ -2,6 +2,14 @@
     height: 879px;
     background-color: $backlight-color;
   
+
+
+    &__wrap {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+}
     
     .button__item {
 
@@ -12,7 +20,15 @@
         text-align: center;
        
     }
+
+    .price_text {
+
+        font-size: 22px;
+    }
+
     
-}
+    
+    
+
 
 

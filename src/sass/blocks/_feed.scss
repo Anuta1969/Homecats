@@ -1,9 +1,10 @@
 .feed {
-    height: 750px;
+    height: 800px;
     
     &__item {
        display: flex;
-       width: 900px;
+       margin: 0 200px;
+    //    width: 900px;
     }
 
     &__name {
@@ -24,26 +25,33 @@
     &__text {
         margin-left: 60px;
         margin-top: 50px;
-      
-     
-       
     }
     &__icon {
         width: 240px;
         height: 190px;
         margin-top: 50px;
-     
-
     }
     &__descr {
        
         width: 590px;
         height: 94px;
         color: #291402;
-        font-family: Roboto;
+        font-family: Roboto italic;
         font-size: 16px;
+        margin-top: 20px;
     }
 }
 
+.right .feed__descr {
+    text-align: right;
+}
 
-
+.right .feed__name {
+    text-align: right;
+}
+.right .feed__city {
+    text-align: right;
+}
+.right .feed__icon {
+   margin-left: 60px;
+}
