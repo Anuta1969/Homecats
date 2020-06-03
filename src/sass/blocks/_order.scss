@@ -1,20 +1,14 @@
 .order {
-height: 870px;
+min-height: 870px;
 background: url("../img/bg_cats_decor.jpg") center (center/cover) no-repeat;
 
-
     &__block {
-    
         display: flex;
         justify-content: center;
         margin-top: 280px;
-       
-      
-       
     }
 
     &__icon {
-
         width: 150px;
         height: 140px;
         text-align: center;
@@ -31,7 +25,6 @@ background: url("../img/bg_cats_decor.jpg") center (center/cover) no-repeat;
     }
   
     &__subtitle {
-
         color: #232323;
         font-family: Roboto;
         font-size: 14px;
@@ -39,7 +32,6 @@ background: url("../img/bg_cats_decor.jpg") center (center/cover) no-repeat;
         text-align: center;
         margin-top: 20px;
     }
-    
     &__descr {
         color: #2e2e2e;
         font-size: 14px;
@@ -47,19 +39,9 @@ background: url("../img/bg_cats_decor.jpg") center (center/cover) no-repeat;
         margin-top: 10px;
         text-align: center;
         width: 250px;
-        
-     
-       
-        
-      
     }
     &__input {
-
-       
         text-align: center;
         margin-top: 20px;
-
     }
-    
-
 }

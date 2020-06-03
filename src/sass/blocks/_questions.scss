@@ -1,15 +1,15 @@
 .questions {
-    height: 180px;
+    min-height: 180px;
    
     background: url("../img/bg_quetions.jpg") center (center/cover) no-repeat;
     &__wrapper {
         display: flex;
-        width: 620px;
+        max-width: 620px;
         margin: 0 auto;
     }
     &__text {
-        width: 237px;
-        height: 51px;
+        max-width: 237px;
+        min-height: 51px;
         margin-top: 70px;
         color: #000000;
         font-size: 20px;

@@ -1,10 +1,8 @@
 .models {
-    height: 879px;
+    min-height: 879px;
     background-color: $backlight-color;
-  
 
-
-    &__wrap {
+    &__wrap1, &__wrap2 {
         display: flex;
         justify-content: space-evenly;
         margin: 0 auto;
@@ -21,10 +19,7 @@
        
     }
 
-    .price_text {
-
-        font-size: 22px;
-    }
+  
 
     
     

@@ -1,5 +1,5 @@
 .design {
-    height: 670px;
+    min-height: 670px;
     background: url(../img/bg_design.jpg) center (center/cover) no-repeat;
 
     &__wrapper {
@@ -10,7 +10,7 @@
 
     &__item {
         text-align: center;
-        width: 249px;
+        max-width: 249px;
     }
     &__icon {
         width: 200px;
@@ -28,7 +28,7 @@
         font-size: 18px;
         font-style: italic;
         margin: 30px auto 15px;
-        width: 236px;
+        max-width: 236px;
         height: 61px;
         font-family: Roboto;
      

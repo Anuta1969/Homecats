@@ -14,8 +14,9 @@
     &__delivery {
         width: 180px;
         height: 45px;
-        margin: 5px auto 5px;
-        background-color: #f09c11
+        margin: 10px auto 0;
+        
+        // background-color: #f09c11
     }
 
     &__slider {
@@ -67,8 +68,5 @@
         margin-left: 163px;
         font-size: 14px;
         font-weight: 400;
-       
-            
     }
-    
 }

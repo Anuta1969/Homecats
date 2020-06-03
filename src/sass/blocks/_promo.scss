@@ -1,28 +1,27 @@
 .promo {
     // width: 1921px; ширину не нужно указывать
-    height: 150px;
+    min-height: 150px;
+
     &__wrapper {
-    display: flex;
-    width: 950px;
-    margin: 0 auto;
-  
+        display: flex;
+        padding-top: 25px;
+        margin: 0 auto;
     }   
     &__logo {
         width: 175px;
         height: 90px;
-        margin-top: 25px;
         margin-right: 25px;
     }   
     &__text {
-        width: 213px;
+        width: 215px;
         color: #000000;
         font-family: Roboto italic;
         font-size: 18px;
-        margin-top: 50px;
-        margin-right: 137px;
+        margin-top: 12px;
+        margin-right: 138px;
     }
     &__subheader {
-        width: 138px;
+       
         color: #000000;
         font-family: Roboto;
         font-size: 12px;
@@ -30,17 +29,15 @@
         margin-top: 0;
     }
     &__social {
-         margin-top: 25px;
-         margin-right: 105px;
-    }
-
-    &__social__icons {
+        margin-right: 80px;
+        width: 140px;
+    
+        &__icons {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            width: 140px;
         }
-    &__social-block {
+        &__block {
             img {
                 display: block;
                 margin: 0;
@@ -48,30 +45,32 @@
                 width: 30px;
                 margin: 0 auto;
             }
+        }
     }
-   &__question {
-    color: #242424;
-    font-family: Roboto;
-    font-size: 12px;
-    font-weight: 400;
-    margin-bottom: 8px;
-    margin-top: 25px;
+    &__contacts {
+        text-align: right;
+    }
+
+    &__question {
+        color: #242424;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom: 8px;
    }
-  
    &__shedule {
-   
-    color: #242424;
-    font-family: Roboto;
-    font-size: 12px;
-    font-weight: 400;
-    margin-top: 10px;
-    margin-bottom: 15px;
+        color: #242424;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-bottom: 15px;
    }
    &__phone {
-    color: #242424;
-    font-size: 18px;
-    font-weight: 700;
-    text-decoration: none;
+        color: #242424;
+        font-size: 18px;
+        font-weight: 700;
+        text-decoration: none;
     }
     &__call {
         color: $main-color;
@@ -81,7 +80,6 @@
         text-align: right;
         display: block;
         margin-top: 8px;
-        
     }
 }
 
